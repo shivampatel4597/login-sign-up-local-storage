@@ -1,0 +1,15 @@
+
+
+.block{
+    margin:8px  auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+
+}
+form{
+    width: 400px;
+    margin: auto;
+    border: 2px solid black;
+}
