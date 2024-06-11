@@ -38,6 +38,11 @@ handleForm(e){
     
 }
 
+forgot = ()=>{
+    alert("forgot password")
+   
+}
+
 
  render(){
     return(
@@ -52,6 +57,7 @@ handleForm(e){
     <label>Please enter Password</label> <br/><br/>
     <input  type="password" value={this.state.Password} required onChange={(e)=>this.setState({Password:e.target.value})}/> <br/><br/>
     <button type="submit">Submit</button>
+    <button onClick={this.forgot}>Forget password</button>
 
 
         </form>
