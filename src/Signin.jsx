@@ -24,8 +24,7 @@ handleForm(e){
     return value.Gmail === this.state.Gmail && value.Password === this.state.Password
    }   
     );
-// console.log(c)
-    // const {a:name, b:email, c:password} = cat;
+
     if(cat.length>=1){
   
         alert("user is present");

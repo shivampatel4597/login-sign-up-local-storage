@@ -27,7 +27,7 @@ class Project extends Component{
     <Link to='/form' className="nav-link active">Form</Link>
     </li>
     <li>
-        Form page
+     <Link to="/forget" className="nav-link active">Forget pass</Link>
     </li>
 </ul>
 

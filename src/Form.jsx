@@ -18,15 +18,7 @@ componentDidMount(){
 
 }
 
-emailCheck =()=>{
- 
-    // if(checking.lenght>=1){
-    //     return true
-    // }
-    // else{
-    //     return false;
-    // }
-}
+
    
     handleForm =(e)=>{
         e.preventDefault()
@@ -74,7 +66,7 @@ emailCheck =()=>{
 
 
 
-
+    
 
        this.setState((prev)=>{
         return {
@@ -84,7 +76,7 @@ emailCheck =()=>{
         }
         }, ()=>   localStorage.setItem("arrData",JSON.stringify(this.state.arr)) )
    
-       alert("handling form")
+    //    alert("handling form")
     // localStorage.setItem("arrData",JSON.stringify(this.state.arr))
     console.log(this.state.arr)
  
